@@ -1,0 +1,56 @@
+@import './variables.scss';
+@import './functions.scss';
+@import './mixins.scss';
+
+// Overwrite bootstrap theme
+$theme-colors: ($colors);
+
+// nav {
+//   ul {
+//     list-style: none;
+//     display: flex;
+
+//     li {
+//       padding: 0 20px;
+
+//       a {
+//         color: white;
+//         text-decoration: none;
+//       }
+
+//       .dropdown-menu .dropdown-item a {
+//         color: #212529;
+//       }
+
+//       .currentPage {
+//         border-bottom: 1px solid white;
+//       }
+//     }
+//   }
+// }
+
+body {
+    .loader-container {
+        width: 50px;
+        margin: auto;
+        padding: 100px 0;
+    }
+
+    // .logo {
+    //   color: color(dark) !important;
+
+    //   @include screen(medium) {
+    //     color: white !important;
+    //   }
+    // }
+
+    // input {
+    //   // Test autoprefixer
+    //   ::placeholder {
+    //     color: color(primary);
+    //   }
+    // }
+}
+
+// Include bootstrap scss
+@import 'node_modules/bootstrap/scss/bootstrap';

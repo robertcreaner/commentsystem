@@ -1,0 +1,13 @@
+// Define main color theme
+$colors: (
+  primary: #ff1031,
+  secondary: #171717,
+  light: #f7f7f8,
+  dark: #101010
+);
+
+// Define breakpoints based on Bootstrap defaults
+$breakpoint-small: 767px;
+$breakpoint-med: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xlarge: 1200px;
